@@ -27,7 +27,7 @@ public class Main
 
         // Prompt for number of runs
         System.out.println("How many times do you want to run this program?");
-        int numRuns = scanner.nextInt();
+        int n = scanner.nextInt();
 
         // Begin for loop for main code
         for(int i = 0; i < numRuns; i++)
@@ -51,7 +51,7 @@ public class Main
             // Find the product of the numbers
             prod = num1 * num2 * num3;
             System.out.println("The product is " + prod );
-            
+
             // Find the average of the numbers
             avg = (num1 + num2 + num3) / 3;
             System.out.println("The average is " + avg);
