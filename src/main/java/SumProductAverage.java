@@ -53,7 +53,7 @@ public class Main
             System.out.println("The product is " + prod );
 
             // Find the average of the numbers
-            avg = (num1 + num2 + num3) / 3;
+            avg = (num1 + num2 + num3) / numRuns;
             System.out.println("The average is " + avg);
         }
     }
