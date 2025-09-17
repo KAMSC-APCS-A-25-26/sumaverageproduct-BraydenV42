@@ -39,15 +39,15 @@ public class Main
             
             System.out.println("Your output was:");
             // Find the sum of the numbers
-            sum = (num1 + num2 + num3);
+            Sum = (num1 + num2 + num3);
             System.out.println("Sum: " + Sum);
 
             // Find the product of the numbers
-            prod = num1 * num2 * num3;
+            Product = num1 * num2 * num3;
             System.out.println("Product: " + Product);
 
             // Find the average of the numbers
-            avg = (num1 + num2 + num3) / n;
+            Average = (num1 + num2 + num3) / n;
             System.out.println("Average: " + Average);
         }
     }
