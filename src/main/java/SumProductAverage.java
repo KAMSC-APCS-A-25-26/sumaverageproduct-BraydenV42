@@ -15,8 +15,40 @@
 
 import java.util.Scanner;
 
-public class SumProductAverage {
-    public static void main(String[] args) {
-        // TODO
+public class SumProductAverage
+{
+    public static void main(String[] args)
+    {
+        // Create scanner
+        Scanner scanner = new Scanner(System.in);
+
+        // Initialize the variables
+        double num1, num2, num3;
+        double average, sum, product;
+
+        // Prompt for number of runs
+        int n = scanner.nextInt();
+
+        // Begin for loop for main code
+        for(int i = 0; i < n; i++)
+        {
+            // Input numbers
+            num1 = scanner.nextDouble();
+            num2 = scanner.nextDouble();
+            num3 = scanner.nextDouble();
+            
+            System.out.println("Your output was:");
+            // Find the sum of the numbers
+            sum = (num1 + num2 + num3);
+            System.out.println("Sum: " + sum);
+
+            // Find the product of the numbers
+            product = num1 * num2 * num3;
+            System.out.println("Product: " + product);
+
+            // Find the average of the numbers
+            average = (num1 + num2 + num3) / n;
+            System.out.println("Average: " + average);
+        }
     }
 }
