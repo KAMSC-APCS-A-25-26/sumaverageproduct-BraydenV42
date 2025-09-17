@@ -23,7 +23,7 @@ public class Main
         Scanner scanner = new Scanner(System.in);
 
         // Initialize the variables
-        float num1, num2, num3, avg, sum, prod;
+        Float num1, num2, num3, avg, sum, prod;
 
         // Prompt for number of runs
         int n = scanner.nextInt();
@@ -35,7 +35,8 @@ public class Main
             num1 = scanner.nextFloat();
             num2 = scanner.nextFloat();
             num3 = scanner.nextFloat();
-
+            
+            System.out.println("Your output was: ");
             // Find the sum of the numbers
             sum = (num1 + num2 + num3);
             System.out.println("Sum: " + sum);
