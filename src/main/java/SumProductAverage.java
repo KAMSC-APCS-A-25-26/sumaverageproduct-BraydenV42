@@ -35,26 +35,20 @@ public class Main
             // Input first number
             System.out.println("What is the first number");
             num1 = scanner.nextFloat();
-
-            // Input second number
-            System.out.println("What is the second number");
             num2 = scanner.nextFloat();
-
-            // Input third number
-            System.out.println("What is the third number");
             num3 = scanner.nextFloat();
 
             // Find the sum of the numbers
             sum = (num1 + num2 + num3);
-            System.out.println("The sum is " + sum);
+            System.out.println("Sum: " + sum);
 
             // Find the product of the numbers
             prod = num1 * num2 * num3;
-            System.out.println("The product is " + prod );
+            System.out.println("Product: " + prod );
 
             // Find the average of the numbers
             avg = (num1 + num2 + num3) / numRuns;
-            System.out.println("The average is " + avg);
+            System.out.println("Average: " + avg);
         }
     }
 }
