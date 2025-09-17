@@ -24,7 +24,7 @@ public class Main
 
         // Initialize the variables
         double num1, num2, num3;
-        double Average, Sum, Product;
+        double average, sum, product;
 
         // Prompt for number of runs
         int n = scanner.nextInt();
@@ -39,16 +39,16 @@ public class Main
             
             System.out.println("Your output was:");
             // Find the sum of the numbers
-            Sum = (num1 + num2 + num3);
-            System.out.println("Sum: " + Sum);
+            sum = (num1 + num2 + num3);
+            System.out.println("Sum: " + sum);
 
             // Find the product of the numbers
-            Product = num1 * num2 * num3;
-            System.out.println("Product: " + Product);
+            product = num1 * num2 * num3;
+            System.out.println("Product: " + product);
 
             // Find the average of the numbers
-            Average = (num1 + num2 + num3) / n;
-            System.out.println("Average: " + Average);
+            average = (num1 + num2 + num3) / n;
+            System.out.println("Average: " + average);
         }
     }
 }
