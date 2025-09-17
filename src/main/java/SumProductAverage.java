@@ -23,20 +23,18 @@ public class Main
         Scanner scanner = new Scanner(System.in);
 
         // Initialize the variables
-        double num1, num2, num3, avg, sum, prod;
+        float num1, num2, num3, avg, sum, prod;
 
         // Prompt for number of runs
-        System.out.println("How many times do you want to run this program?");
         int n = scanner.nextInt();
 
         // Begin for loop for main code
-        for(int i = 0; i < numRuns; i++)
+        for(int i = 0; i < n; i++)
         {
-            // Input first number
-            System.out.println("What is the first number");
-            num1 = scanner.nextDouble();
-            num2 = scanner.nextDouble();
-            num3 = scanner.nextDouble();
+            // Input numbers
+            num1 = scanner.nextFloat();
+            num2 = scanner.nextFloat();
+            num3 = scanner.nextFloat();
 
             // Find the sum of the numbers
             sum = (num1 + num2 + num3);
@@ -47,7 +45,7 @@ public class Main
             System.out.println("Product: " + prod );
 
             // Find the average of the numbers
-            avg = (num1 + num2 + num3) / numRuns;
+            avg = (num1 + num2 + num3) / n;
             System.out.println("Average: " + avg);
         }
     }
